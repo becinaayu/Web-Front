@@ -1,0 +1,5 @@
+'&&' = Condição 'e'
+Na condição 'e' necessita que as duas condições sejam verdade para passar no teste 
+
+'||' = Condição 'ou'
+Se qualquer valor em 'ou' for verdade ele irá executar o teste
