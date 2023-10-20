@@ -1,5 +1,5 @@
 
-// Forma mais "avaçada"
+// Forma mais "avançada"
 
 let valor = 7;
 console.log(valor);
