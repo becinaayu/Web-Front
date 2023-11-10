@@ -1,0 +1,55 @@
+* {
+    list-style: none;
+}
+
+body {
+    background: rgb(37, 30, 39);
+}
+
+.container {
+    border: 1px solid rgb(204, 191, 240);
+    max-width: 500px;
+    /* auto serve para centralizar no centro */
+    margin: 20px auto;
+    background: #fff;
+    border-radius: 5px;
+    /* "display:flex;" e "justify-content: center;" faz a mesma coisa */
+    text-align: center;
+}
+
+.form-control {
+    margin: 25px;
+}
+
+.form-control input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    /* outline serve para tirar a borda padrão do google */
+    outline: 0;
+}
+
+button {
+    margin-bottom: 20px;
+    background-color: rgb(81, 79, 228);
+    border: 0;
+    padding: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.erro {
+    color: rgb(224, 48, 48);
+    text-align: left;
+    margin-left: 32px;
+
+}
+
+.d-none {
+    /* serve para esconder elementos */
+    display: none;
+}
+
+.d-block {
+    /* aparece novamente */
+    display: block;
+}
