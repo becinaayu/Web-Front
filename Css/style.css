@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    border: 1px solid rgb(183, 31, 197);
+    max-width: 400px;
+    margin: 80px auto;
+    background: rgb(35, 35, 39);
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.form-control input[type="text"] {
+    padding: 5px;
+    outline: 0;
+}
+
+button {
+    background: rgb(4, 184, 37);
+    color: #fff;
+    padding: 6px;
+    border: 0;
+    cursor: pointer;
+    height: 30px;
+}
+
+.error {
+    color: rgb(238, 31, 31);
+    text-align: left;
+}
+
+.d-none {
+    display: none;
+}
